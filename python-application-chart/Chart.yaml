@@ -1,5 +1,5 @@
 apiVersion: v2
 name: python-application-chart
-description: A Helm chart for deploying Flask application
+description: A Helm chart for deploying AnyCompany application
 version: 0.1.0
 appVersion: "1.0"
