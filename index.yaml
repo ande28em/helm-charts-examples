@@ -8,6 +8,6 @@ entries:
       digest: e77a705a500f69ec8d52e087192f3cb4190fc462517d685f008bab1bb8e4fa86
       name: python-application-chart
       urls:
-        - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.0.tg
+        - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.0.tgz
       version: 0.1.0
 generated: "2024-06-18T17:13:49.6590349-05:00"
