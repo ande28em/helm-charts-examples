@@ -21,3 +21,5 @@ serviceAccount:
   iamRoleArn: ""
 
 ingress:
+  enabled: true
+  annotations: {}
