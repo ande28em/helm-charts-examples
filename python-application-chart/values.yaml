@@ -19,3 +19,5 @@ serviceAccount:
   name: ""
   annotations: {}
   iamRoleArn: ""
+
+ingress:
