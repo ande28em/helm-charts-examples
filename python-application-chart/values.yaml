@@ -7,9 +7,11 @@ image:
   tag: "latest"
   pullPolicy: IfNotPresent
 
+# Cluster IP or Node port svc
 service:
   type: LoadBalancer
   port: 80
+  schema: internet-facing
 
 env:
   S3_BUCKET_NAME: your-bucket-name
@@ -19,7 +21,3 @@ serviceAccount:
   name: ""
   annotations: {}
   iamRoleArn: ""
-
-ingress:
-  enabled: true
-  annotations: {}

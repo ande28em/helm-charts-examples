@@ -3,6 +3,8 @@ kind: Service
 metadata:
   name: {{ .Values.name }}-svc
   namespace: {{ .Values.namespace }}
+  annotations:
+    service.beta.kubernetes.io/aws-load-balancer-scheme: {{.Values.service.schema }}
 spec:
   type: {{ .Values.service.type }}
   ports:
