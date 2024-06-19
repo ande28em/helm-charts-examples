@@ -3,12 +3,20 @@ entries:
   python-application-chart:
     - apiVersion: v2
       appVersion: "1.0"
-      created: "2024-06-19T11:26:58.6374188-05:00"
-      description: A Helm chart for deploying Flask application
-      digest: 2fc56d6615131c5af41cb93aa7b2c17c6cb91974d1cbe16896ce218ab2ea6668
+      created: "2024-06-19T11:42:33.0791071-05:00"
+      description: A Helm chart for deploying AnyCompany application
+      digest: a8c7a252c41976a6e2d638cb7713b9944f970cd8711a730176847bf49b91f3b3
+      name: python-application-chart
+      urls:
+        - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.3.tgz
+      version: 0.1.3
+    - apiVersion: v2
+      appVersion: "1.0"
+      created: "2024-06-19T11:42:33.078524-05:00"
+      description: A Helm chart for deploying AnyCompany application
+      digest: 7cec40206eccd31f1ee03f0a1652dcb35f749f8bed24d28b43c421357b3eb3e7
       name: python-application-chart
       urls:
         - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.2.tgz
-        - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.0.tgz
-      version: 0.1.0
-generated: "2024-06-19T11:26:58.6363329-05:00"
+      version: 0.1.2
+generated: "2024-06-19T11:42:33.0779423-05:00"
