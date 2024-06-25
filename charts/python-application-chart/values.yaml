@@ -21,3 +21,9 @@ serviceAccount:
   name: ""
   annotations: {}
   iamRoleArn: ""
+
+hpa:
+  enabled: false
+  minReplicas: 1
+  maxReplicas: 10
+  averageCpuUtilization: 50
