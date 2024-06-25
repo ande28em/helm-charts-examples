@@ -2,13 +2,13 @@
 apiVersion: autoscaling/v1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: {{ template "customerapi.fullname" . }}
+  name: {{ .Values.name }}-hpa
 spec:
   maxReplicas: {{ .Values.hpa.maxReplicas }}
   minReplicas: {{ .Values.hpa.minReplicas }}
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: {{ template "customerapi.fullname" . }}
+    name: {{ .Values.name }}
   targetCPUUtilizationPercentage: {{ .Values.hpa.averageCpuUtilization }}
 {{- end }}
