@@ -3,29 +3,29 @@ entries:
   python-application-chart:
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-06-25T16:11:16.0306497-05:00"
+    created: "2024-06-25T16:20:47.426785-05:00"
     description: A Helm chart for deploying AnyCompany application (W HPA + NodeSelector)
-    digest: 2ddc9dc50f51e0ef094939f4ef4ed61713d03dbf0f3bdcb3766ccef2adaaf722
+    digest: a1917535fb41bbd5e1606cf4e6a957f0828d1f6e9785c7ea09d1b3b744329168
     name: python-application-chart
     urls:
     - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.4.tgz
     version: 0.1.4
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-06-25T16:11:16.0301182-05:00"
-    description: A Helm chart for deploying AnyCompany application (No HPA)
-    digest: 5d758430894a1c4a0cb58c2ac10df4f6435ca1dfa6dc599cfaad6bc0bd090a76
+    created: "2024-06-25T16:20:47.4257892-05:00"
+    description: A Helm chart for deploying AnyCompany application (W HPA)
+    digest: 7fe48463c8cf9e61b82062b40519e1cea87ed1cb623718b7929d104204fecea2
     name: python-application-chart
     urls:
     - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.3.tgz
     version: 0.1.3
   - apiVersion: v2
     appVersion: "1.0"
-    created: "2024-06-25T16:11:16.0295534-05:00"
+    created: "2024-06-25T16:20:47.4257892-05:00"
     description: A Helm chart for deploying AnyCompany application
     digest: 7cec40206eccd31f1ee03f0a1652dcb35f749f8bed24d28b43c421357b3eb3e7
     name: python-application-chart
     urls:
     - https://ande28em.github.io/helm-charts-examples/python-application-chart-0.1.2.tgz
     version: 0.1.2
-generated: "2024-06-25T16:11:16.0284586-05:00"
+generated: "2024-06-25T16:20:47.424788-05:00"
