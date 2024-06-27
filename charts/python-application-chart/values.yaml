@@ -1,6 +1,7 @@
 name:
 namespace:
 nodeSelector:
+  team: anycompany-infra-team
 replicaCount: 1
 image:
   repository: flask-app
